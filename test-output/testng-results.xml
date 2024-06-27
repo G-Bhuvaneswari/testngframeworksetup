@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="15" passed="6" failed="1" skipped="0">
+<testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[username and pasword entered succesfully]]>
@@ -14,16 +14,34 @@
       <![CDATA[element clicked]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-28T07:42:18 IST" name="Suite" finished-at="2024-05-28T07:42:28 IST" duration-ms="9630">
+  <suite started-at="2024-06-26T05:41:02 IST" name="Suite" finished-at="2024-06-26T05:41:18 IST" duration-ms="15699">
     <groups>
     </groups>
-    <test started-at="2024-05-28T07:42:18 IST" name="Test" finished-at="2024-05-28T07:42:28 IST" duration-ms="9630">
+    <test started-at="2024-06-26T05:41:02 IST" name="chromeTest" finished-at="2024-06-26T05:41:18 IST" duration-ms="15699">
       <class name="testcase.Tc_loginfuction_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Tc_loginfuction_001@41a0aa7d]" started-at="2024-05-28T07:42:12 IST" name="setup" finished-at="2024-05-28T07:42:18 IST" duration-ms="6269" status="PASS">
+        <test-method signature="browserlunch(java.lang.String)[pri:0, instance:testcase.Tc_loginfuction_001@5b1669c0]" started-at="2024-06-26T05:41:02 IST" name="browserlunch" finished-at="2024-06-26T05:41:08 IST" duration-ms="6187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:testcase.Tc_loginfuction_001@41a0aa7d]" started-at="2024-05-28T07:42:18 IST" name="login" finished-at="2024-05-28T07:42:24 IST" duration-ms="6301" status="PASS">
+        </test-method> <!-- browserlunch -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_loginfuction_001@5b1669c0]" started-at="2024-06-26T05:41:08 IST" name="screenshot" finished-at="2024-06-26T05:41:08 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=browserlunch status=SUCCESS method=Tc_loginfuction_001.browserlunch(java.lang.String)[pri:0, instance:testcase.Tc_loginfuction_001@5b1669c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="login()[pri:0, instance:testcase.Tc_loginfuction_001@5b1669c0]" started-at="2024-06-26T05:41:08 IST" name="login" finished-at="2024-06-26T05:41:15 IST" duration-ms="6342" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username and pasword entered succesfully]]>
@@ -33,32 +51,32 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_loginfuction_001@41a0aa7d]" started-at="2024-05-28T07:42:24 IST" name="screenshot" finished-at="2024-05-28T07:42:24 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_loginfuction_001@5b1669c0]" started-at="2024-06-26T05:41:15 IST" name="screenshot" finished-at="2024-06-26T05:41:15 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=Tc_loginfuction_001.login()[pri:1, instance:testcase.Tc_loginfuction_001@41a0aa7d] output=username and pasword entered succesfully]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Tc_loginfuction_001.login()[pri:0, instance:testcase.Tc_loginfuction_001@5b1669c0] output=username and pasword entered succesfully]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.Tc_loginfuction_001@41a0aa7d]" started-at="2024-05-28T07:42:28 IST" name="teardown" finished-at="2024-05-28T07:42:28 IST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.Tc_loginfuction_001@5b1669c0]" started-at="2024-06-26T05:41:18 IST" name="teardown" finished-at="2024-06-26T05:41:18 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcase.Tc_loginfuction_001 -->
       <class name="testcase.Tc_checkout_004">
-        <test-method signature="checkout()[pri:0, instance:testcase.Tc_checkout_004@368247b9]" started-at="2024-05-28T07:42:27 IST" name="checkout" finished-at="2024-05-28T07:42:27 IST" duration-ms="274" status="PASS">
+        <test-method signature="checkout()[pri:0, instance:testcase.Tc_checkout_004@173ed316]" started-at="2024-06-26T05:41:18 IST" name="checkout" finished-at="2024-06-26T05:41:18 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_checkout_004@368247b9]" started-at="2024-05-28T07:42:27 IST" name="screenshot" finished-at="2024-05-28T07:42:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_checkout_004@173ed316]" started-at="2024-06-26T05:41:18 IST" name="screenshot" finished-at="2024-06-26T05:41:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkout status=SUCCESS method=Tc_checkout_004.checkout()[pri:0, instance:testcase.Tc_checkout_004@368247b9] output={null}]]]>
+                <![CDATA[[TestResult name=checkout status=SUCCESS method=Tc_checkout_004.checkout()[pri:0, instance:testcase.Tc_checkout_004@173ed316] output={null}]]]>
               </value>
             </param>
           </params>
@@ -67,59 +85,15 @@
         </test-method> <!-- screenshot -->
       </class> <!-- testcase.Tc_checkout_004 -->
       <class name="testcase.Tc_priceview_005">
-        <test-method signature="price()[pri:0, instance:testcase.Tc_priceview_005@1a6d8329]" started-at="2024-05-28T07:42:27 IST" name="price" finished-at="2024-05-28T07:42:27 IST" duration-ms="38" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [delivery] but found [Test.allTheThings() T-Shirt (Red)]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [delivery] but found [Test.allTheThings() T-Shirt (Red)]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at testcase.Tc_priceview_005.price(Tc_priceview_005.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="price()[pri:0, instance:testcase.Tc_priceview_005@17f62e33]" started-at="2024-06-26T05:41:18 IST" name="price" finished-at="2024-06-26T05:41:18 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- price -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_priceview_005@1a6d8329]" started-at="2024-05-28T07:42:27 IST" name="screenshot" finished-at="2024-05-28T07:42:28 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_priceview_005@17f62e33]" started-at="2024-06-26T05:41:18 IST" name="screenshot" finished-at="2024-06-26T05:41:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=price status=FAILURE method=Tc_priceview_005.price()[pri:0, instance:testcase.Tc_priceview_005@1a6d8329] output={null}]]]>
+                <![CDATA[[TestResult name=price status=SUCCESS method=Tc_priceview_005.price()[pri:0, instance:testcase.Tc_priceview_005@17f62e33] output={null}]]]>
               </value>
             </param>
           </params>
@@ -128,7 +102,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- screenshot -->
       </class> <!-- testcase.Tc_priceview_005 -->
       <class name="testcase.Tc_addtocart_003">
-        <test-method signature="cart()[pri:5, instance:testcase.Tc_addtocart_003@20140db9]" started-at="2024-05-28T07:42:25 IST" name="cart" finished-at="2024-05-28T07:42:27 IST" duration-ms="2198" status="PASS">
+        <test-method signature="cart()[pri:0, instance:testcase.Tc_addtocart_003@7674f035]" started-at="2024-06-26T05:41:15 IST" name="cart" finished-at="2024-06-26T05:41:18 IST" duration-ms="2191" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[moved to that element]]>
@@ -138,11 +112,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- cart -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_addtocart_003@20140db9]" started-at="2024-05-28T07:42:27 IST" name="screenshot" finished-at="2024-05-28T07:42:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_addtocart_003@7674f035]" started-at="2024-06-26T05:41:18 IST" name="screenshot" finished-at="2024-06-26T05:41:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cart status=SUCCESS method=Tc_addtocart_003.cart()[pri:5, instance:testcase.Tc_addtocart_003@20140db9] output=moved to that element]]]>
+                <![CDATA[[TestResult name=cart status=SUCCESS method=Tc_addtocart_003.cart()[pri:0, instance:testcase.Tc_addtocart_003@7674f035] output=moved to that element]]]>
               </value>
             </param>
           </params>
@@ -151,45 +125,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- screenshot -->
       </class> <!-- testcase.Tc_addtocart_003 -->
       <class name="testcase.Tc_sortitem_002">
-        <test-method signature="sort1()[pri:2, instance:testcase.Tc_sortitem_002@60099951]" started-at="2024-05-28T07:42:24 IST" name="sort1" finished-at="2024-05-28T07:42:24 IST" duration-ms="234" status="PASS">
+        <test-method signature="sort1()[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b]" started-at="2024-06-26T05:41:15 IST" name="sort1" finished-at="2024-06-26T05:41:15 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort1 -->
-        <test-method signature="sort2()[pri:3, instance:testcase.Tc_sortitem_002@60099951]" started-at="2024-05-28T07:42:24 IST" name="sort2" finished-at="2024-05-28T07:42:25 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b]" started-at="2024-06-26T05:41:15 IST" name="screenshot" finished-at="2024-06-26T05:41:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sort1 status=SUCCESS method=Tc_sortitem_002.sort1()[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="sort2()[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b]" started-at="2024-06-26T05:41:15 IST" name="sort2" finished-at="2024-06-26T05:41:15 IST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort2 -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_sortitem_002@60099951]" started-at="2024-05-28T07:42:24 IST" name="screenshot" finished-at="2024-05-28T07:42:24 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b]" started-at="2024-06-26T05:41:15 IST" name="screenshot" finished-at="2024-06-26T05:41:15 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sort1 status=SUCCESS method=Tc_sortitem_002.sort1()[pri:2, instance:testcase.Tc_sortitem_002@60099951] output={null}]]]>
+                <![CDATA[[TestResult name=sort2 status=SUCCESS method=Tc_sortitem_002.sort2()[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_sortitem_002@60099951]" started-at="2024-05-28T07:42:25 IST" name="screenshot" finished-at="2024-05-28T07:42:25 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sort2 status=SUCCESS method=Tc_sortitem_002.sort2()[pri:3, instance:testcase.Tc_sortitem_002@60099951] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshot -->
-        <test-method signature="sort3()[pri:4, instance:testcase.Tc_sortitem_002@60099951]" started-at="2024-05-28T07:42:25 IST" name="sort3" finished-at="2024-05-28T07:42:25 IST" duration-ms="179" status="PASS">
+        <test-method signature="sort3()[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b]" started-at="2024-06-26T05:41:15 IST" name="sort3" finished-at="2024-06-26T05:41:15 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort3 -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_sortitem_002@60099951]" started-at="2024-05-28T07:42:25 IST" name="screenshot" finished-at="2024-05-28T07:42:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b]" started-at="2024-06-26T05:41:15 IST" name="screenshot" finished-at="2024-06-26T05:41:15 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sort3 status=SUCCESS method=Tc_sortitem_002.sort3()[pri:4, instance:testcase.Tc_sortitem_002@60099951] output={null}]]]>
+                <![CDATA[[TestResult name=sort3 status=SUCCESS method=Tc_sortitem_002.sort3()[pri:0, instance:testcase.Tc_sortitem_002@2cf3d63b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -197,6 +171,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- screenshot -->
       </class> <!-- testcase.Tc_sortitem_002 -->
-    </test> <!-- Test -->
+    </test> <!-- chromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -13,7 +13,7 @@ import pageobject.addtocartfunction;
 
 public class Tc_addtocart_003 extends Baseclass{
 		
-	    @Test(priority =5)
+	    @Test()
 		public void cart() throws InterruptedException {
 			PageFactory.initElements(driver,addtocartfunction.class);
 

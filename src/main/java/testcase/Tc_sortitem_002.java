@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import pageobject.sortitemfunction;
 
 public class Tc_sortitem_002 extends Baseclass {
-	@Test(priority =2)
+	@Test()
 	public void sort1() {
 		
 		PageFactory.initElements(driver,sortitemfunction.class);
@@ -18,7 +18,7 @@ public class Tc_sortitem_002 extends Baseclass {
 	sortitemfunction.back.click();
 	
 	}
-	@Test(priority =3)
+	@Test()
 	public void sort2() {
 		
 		PageFactory.initElements(driver,sortitemfunction.class);
@@ -29,7 +29,7 @@ public class Tc_sortitem_002 extends Baseclass {
 	sortitemfunction.back.click();
 		
 		
-	}@Test(priority =4)
+	}@Test()
     public void sort3() {
 		PageFactory.initElements(driver,sortitemfunction.class);
 

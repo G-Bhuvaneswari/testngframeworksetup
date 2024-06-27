@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite" parallel="tests" thread-count="2" verbose="5">
+  <test thread-count="2" name="chromeTest">
     <classes>
       <class name="testcase.Tc_loginfuction_001"/>
       <class name="testcase.Tc_sortitem_002"/>
       <class name="testcase.Tc_addtocart_003"/>
       <class name="testcase.Tc_checkout_004"/>
       <class name="testcase.Tc_priceview_005"/>
+
 
 </classes>
   </test> <!-- Test -->
